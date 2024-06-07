@@ -1,0 +1,18 @@
+@import './base.scss';
+@import './colors.scss';
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: $background-color;
+  color: $text-color;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

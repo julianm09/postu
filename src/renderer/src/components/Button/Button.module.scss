@@ -1,0 +1,14 @@
+@import '@assets/colors.scss';
+
+.button {
+  color: $background-color;
+  background-color: $button-color;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 4px 4px #3e3e3e25;
+}

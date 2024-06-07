@@ -21,6 +21,9 @@ function createWindow(): void {
     mainWindow.show()
   })
 
+  // ENABLE DEV TOOLS
+  mainWindow.webContents.openDevTools()
+
   mainWindow.webContents.setWindowOpenHandler((details) => {
     shell.openExternal(details.url)
     return { action: 'deny' }
