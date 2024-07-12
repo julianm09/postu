@@ -1,0 +1,47 @@
+@import '@assets/colors.scss';
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  padding-top: 80px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .highlight {
+    color: $highlight-color;
+  }
+}
+
+.container-middle {
+  padding-top: 40px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container-workouts {
+  padding-top: 40px;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
